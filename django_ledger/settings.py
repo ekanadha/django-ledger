@@ -95,3 +95,15 @@ DJANGO_LEDGER_FINANCIAL_ANALYSIS = {
         },
     }
 }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'enter_your_DBname_here',
+        'USER': 'enter_your_User_name_here',
+        'PASSWORD': 'enter_your_password_here',
+        'HOST': 'enter_your_Rds_endpoint_here',
+        'PORT': '3306',
+    }
+}
+
